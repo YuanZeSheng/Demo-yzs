@@ -1731,7 +1731,11 @@ dom-serializer@0:
 
 dom7@^2.0.1:
   version "2.0.1"
+<<<<<<< HEAD
   resolved "http://r.cnpmjs.org/dom7/download/dom7-2.0.1.tgz#a8a2c802cf17c20b051d9414143061472201a233"
+=======
+  resolved "https://registry.yarnpkg.com/dom7/-/dom7-2.0.1.tgz#a8a2c802cf17c20b051d9414143061472201a233"
+>>>>>>> 20171215-yzs-index
 
 domain-browser@^1.1.1:
   version "1.1.7"
@@ -5091,7 +5095,11 @@ svgo@^0.7.0:
 
 swiper@^4.0.7:
   version "4.0.7"
+<<<<<<< HEAD
   resolved "http://r.cnpmjs.org/swiper/download/swiper-4.0.7.tgz#89175c2a23d86622eda8344740c24a3701a6b270"
+=======
+  resolved "https://registry.yarnpkg.com/swiper/-/swiper-4.0.7.tgz#89175c2a23d86622eda8344740c24a3701a6b270"
+>>>>>>> 20171215-yzs-index
   dependencies:
     dom7 "^2.0.1"
 
@@ -5402,7 +5410,11 @@ vm-browserify@0.0.4:
 
 vue-awesome-swiper@^3.0.6:
   version "3.0.6"
+<<<<<<< HEAD
   resolved "http://r.cnpmjs.org/vue-awesome-swiper/download/vue-awesome-swiper-3.0.6.tgz#546aa9a2775471e1dfa6ca9fd7e958aaa99ee1ea"
+=======
+  resolved "https://registry.yarnpkg.com/vue-awesome-swiper/-/vue-awesome-swiper-3.0.6.tgz#546aa9a2775471e1dfa6ca9fd7e958aaa99ee1ea"
+>>>>>>> 20171215-yzs-index
   dependencies:
     object-assign "^4.1.1"
     swiper "^4.0.7"
