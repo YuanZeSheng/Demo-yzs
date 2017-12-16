@@ -2,7 +2,7 @@
   <div>
   	<header class="header">
   		<div class="back iconfont">&#xe624;</div>
-  		<div class="search"></div>
+  		<div class="search"><a href="#" class="prompt">请输入城市/景点/游戏主题</a></div>
   		<div class="city">城市</div>
   	</header>
   	 <swiper :options="swiperOption">
@@ -59,7 +59,11 @@ export default {
 	.city{
 		width: 1.32rem;
 		line-height: .86rem;
-		text-align: center;
+		text-align: left;
+		/*position: relative;*/
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		
 	}
 	.swiper-img-con{
 		width: 100%;
@@ -67,4 +71,20 @@ export default {
 	.swiper-img{
 		width: 100%;
 	}
+	.prompt{
+		text-align: center;
+		display: block;
+		line-height: 0.6rem;
+		height: 0.6rem;
+	}
+	.city:after{
+    display:block;
+    content:'';
+    border-width:0.13rem;
+    border-style:solid;
+    border-color:#FFFFFF transparent transparent transparent;
+    position:absolute;
+    top: 0.35rem;
+    right: 0.3rem;
+}
 </style>
