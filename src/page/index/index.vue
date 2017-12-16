@@ -1,12 +1,11 @@
 <template>
   <div>
-    <header class="header">
-      <div class="back">返回</div>
-      <div class="search"></div>
-      <div class="city">城市</div>
-    </header>
-
-    <swiper :options="swiperOption">
+  	<header class="header">
+  		<div class="back iconfont">&#xe624;</div>
+  		<div class="search"></div>
+  		<div class="city">城市</div>
+  	</header>
+  	 <swiper :options="swiperOption">
       <swiper-slide>
         <div class="swiper-img-con">
           <img  class="swiper-img" src="http://img1.qunarzz.com/piao/fusion/1609/15/630b82d932a3c402.jpg_640x200_862e836b.jpg"/>
@@ -38,30 +37,34 @@ export default {
 </script>
 
 <style scoped>
-  .header {
-    display: flex;
-    background: #05bad5;
-    color: #fff;
-  }
-  .back {
-    width: .64rem;
-    line-height: .86rem;
-  }
-  .search {
-    flex: 1;
-    margin: .14rem .18rem;
-    background: #fff;
-    border-radius: .1rem;
-  }
-  .city {
-    width: 1.14rem;
-    line-height: .86rem;
-    text-align: center;
-  }
-  .swiper-img-con {
-    width: 100%;
-  }
-  .swiper-img {
-    width: 100%;
-  }
+
+	.header{
+		display: flex;
+		height: 0.86rem;
+		background: #05bad5;
+		color: #FFFFFF;
+	}
+
+	.back{
+		width: .64rem;
+		line-height: 0.86rem;
+		text-align: center;
+	}
+	.search{
+		margin: .14rem .18rem;
+		flex: 1;
+		background: #FFFFFF;
+		border-radius: 0.1rem ;
+	}
+	.city{
+		width: 1.32rem;
+		line-height: .86rem;
+		text-align: center;
+	}
+	.swiper-img-con{
+		width: 100%;
+	}
+	.swiper-img{
+		width: 100%;
+	}
 </style>
